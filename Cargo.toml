@@ -1,0 +1,21 @@
+[package]
+name = "twin"
+version = "0.1.0"
+authors = ["Tetcoin Developers <support@tetcoin.org>"]
+description = "Tetsy Common Bindings to the Windows API"
+edition = "2018"
+license = "MIT"
+keywords = ["tetcoin", "tetcore", "crypto", "blockchain", "framework"]
+categories = ["cryptography::cryptocurrencies"]
+homepage = "https://core.tetcoin.org"
+repository = "https://github.com/tetcoin/twin"
+documentation = "https://docs.rs/twin"
+readme = "README.md"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+windows = "0.10.0"
+
+[build-dependencies]
+windows = "0.10.0"
