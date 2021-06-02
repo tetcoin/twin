@@ -1,11 +1,8 @@
 fn main() {
     windows::build!(
-        Windows::Win32::Globalization::{
-            ISpellChecker, SpellCheckerFactory, ISpellCheckerFactory, IEnumSpellingError,
-            ISpellingError, CORRECTIVE_ACTION_NONE, CORRECTIVE_ACTION_DELETE,
-            CORRECTIVE_ACTION_REPLACE, CORRECTIVE_ACTION_GET_SUGGESTIONS,
-        },
-        Windows::Win32::System::SystemServices::{BOOL, PWSTR, S_FALSE},
-        Windows::Win32::System::Com::IEnumString
+        Windows::Data::Xml::Dom::*,
+        Windows::Win32::System::Threading::{CreateEventW, SetEvent, WaitForSingleObject},
+        Windows::Win32::System::WindowsProgramming::CloseHandle,
+        Windows::Win32::UI::WindowsAndMessaging::{MessageBoxA, MB_OK},
     )
 }c
