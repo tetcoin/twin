@@ -1,6 +1,6 @@
 [package]
 name = "twin"
-version = "0.1.1"
+version = "0.1.2"
 authors = ["Tetcoin Developers <support@tetcoin.org>"]
 description = "Tetsy Common Bindings to the Windows API"
 edition = "2018"

@@ -6,8 +6,6 @@
 // option. This file may not be copied, modified, or distributed
 // except according to those terms.
 
-use windows::*;
-
 windows::include_bindings!();
 
 #[cfg(test)]
