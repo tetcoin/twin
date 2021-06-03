@@ -1,6 +1,6 @@
 ## Twin
 
-Tetsy Common Bindings to the Windows API.  
+Tetsy Common Bindings to the Windows API.
 
 ## Contributions & Code of Conduct
 

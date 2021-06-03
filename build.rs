@@ -4,4 +4,4 @@ fn main() {
         windows::build!(Windows::UI::*);
         windows::build!(Windows::Graphics::*);
     )
-}c
+}
